@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+
+
+
+  <table cellspacing="10">
+    <tr>
+      <td>
+        <img src="Ryan.jpg" alt="Ryan profile picture">
+      </td>
+      <td>
+        <h1>Contact Info</h1>
+
+        <p><strong>Phone:</strong></p>
+        <p>661.713.7520</p>
+
+        <p><strong>Email:</strong></p>
+        <p>ryantagbusiness@gmail.com</p>
+      </td>
+    </tr>
+  </table>
+
+<hr>
+
+
+<h1>Contact form</h1>
+
+<!-- mailto:youremail will redirect an action on a page to
+  the clients email -->
+
+  <form action="mailto:ryantagbusiness@gmail.com" method="post"
+  enctype="text/plain">
+
+  <!-- adding the attribute enctype="text/plain" will make <thead>
+    email text appear normal when it is transfered over to the
+    email client. -->
+
+    <label>Your Name</label>
+    <input type="text" name="yourName" value="">
+    <br>
+    <label>Your Email</label>
+
+    <!-- typing yourName, yourEmail, or yourMessage in the name value
+     will transfer over to the email field to make the information
+   entered more organized -->
+
+   <!-- input type="email" will perform a validation to ensure
+       a legitimate email is being entered -->
+
+    <input type="email" name="yourEmail" value="">
+    <br>
+    <label>Your Message</label>
+    <br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea>
+    <br>
+    <input type="submit" name="" value="submit">
+    <br>
+
+
+  </form>
+
+</body>
+
+</html>
